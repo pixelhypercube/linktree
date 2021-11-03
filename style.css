@@ -1,0 +1,45 @@
+body {
+    background:rgb(34, 34, 34);
+}
+main {
+    margin-top:50px;
+}
+button.link {
+    background-color:rgb(255, 255, 255);
+    color:black;
+    border:none;
+    border-radius:0px;
+    margin:20px;
+    height:50px;
+    max-width:500px;
+}
+button.link:hover {
+    background-color:rgb(34, 34, 34);
+    border:2px solid #ffffff;
+    color:white;
+}
+button.link:active {
+    background-color:rgb(34, 34, 34);
+    border:2px solid #ffffff;
+    color:white;
+}
+button.link:focus {
+    background-color:rgb(34, 34, 34);
+    border:2px solid #ffffff;
+    color:white;
+}
+img#profile-pic {
+    max-width:100px;
+}
+hr {
+    border-bottom:2px solid white;
+    height:0px;
+    width:80%;
+    margin:20px auto;
+}
+p#account-name {
+    text-align:center;
+    color:white;
+    font-size:24px;
+    margin:20px;
+}
