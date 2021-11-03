@@ -4,6 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -14,12 +15,16 @@
     <body>
         <main class="container">
             <div class="d-flex flex-column">
-                <img class="m-auto" id="profile-pic" src="./profilePic.gif" alt="">
+                <img alt="dankKirby" class="m-auto" id="profile-pic" src="./profilePic.gif" alt="">
                 <p id="account-name">@kjteo0</p>
                 <hr>
-                <button id="btn-website" class="link btn" data-href="https://pixelhypercube.github.io">Personal Website</button>
-                <button id="btn-spotify" class="link btn" data-href="https://open.spotify.com/user/kjkj0903?si=GSbTzIf_QdysyrrbfoQuUg">Spotify</button>
-                <button id="btn-github" class="link btn" data-href="https://github.com/pixelhypercube">Github</button>
+                <button id="btn-website" class="link btn" data-href="https://pixelhypercube.github.io"><span class="span-icon"><i class="fa fa-window-maximize"></i></span>My Personal Website</button>
+                <button id="btn-spotify" class="link btn" data-href="https://open.spotify.com/user/kjkj0903?si=GSbTzIf_QdysyrrbfoQuUg"><span class="span-icon"><i class="fa fa-spotify"></i></span>Spotify</button>
+                <button id="btn-github" class="link btn" data-href="https://github.com/pixelhypercube"><span class="span-icon"><i class="fa fa-twitter"></i></span>Twitter</button>
+                <button id="btn-github" class="link btn" data-href="https://github.com/pixelhypercube"><span class="span-icon"><i class="fa fa-github"></i></span>Github</button>
+                <hr>
+                <p id="desc">fyi this is a custom linktree i made ;)</p>
+                <a id="link-source-code" href="https://github.com/pixelhypercube/linktree">View source code!</a>
             </div>
         </main>
     </body>
