@@ -4,7 +4,7 @@
 }
 
 body {
-    background:rgb(0, 0, 0);
+    background:#181617;
     font-family:Nunito;
     color:white;
     text-align: center;
@@ -13,32 +13,33 @@ main {
     margin-top:50px;
 }
 button.link {
-    background-color:rgb(0, 0, 0);
+    background:#181617;
     border:2px solid #ffffff;
     color:white;
     border-radius:1000px;
-    margin:15px;
+    margin:15px auto;
     height:50px;
-    max-width:500px;
+    width:100%;
+    max-width:680px;
     position:relative;
 }
 button.link:hover {
-    background-color:rgb(255, 255, 255);
+    background:rgb(255, 255, 255);
     color:black;
     border:none;
 }
 button.link:active {
-    background-color:rgb(255, 255, 255);
+    background:rgb(255, 255, 255);
     color:black;
     border:none;
 }
 button.link:focus {
-    background-color:rgb(255, 255, 255);
+    background:rgb(255, 255, 255);
     color:black;
     border:none;
 }
 img#profile-pic {
-    max-width:100px;
+    max-width:125px;
 }
 hr {
     border-bottom:2px solid white;
